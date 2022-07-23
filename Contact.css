@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    width: 60%;
+    height: 200px;
+    background-color: #204566;
+    display: block;
+    margin: 0 auto;
+}
+.headerpicture{
+    width: 260px;
+    height: 100%;
+    background-image: url('Bookstorelogo.jpg');
+    background-size: cover;
+    border-radius: 60%;
+}
+footer{
+    width: 60%;
+    height: 200px;
+    background-color: #204566;
+    display: block;
+    margin: 0 auto;
+}
+.navigation{
+    height: 100%;
+    display: table;
+    float: right;
+    text-align: center;
+}
+.navigation a li{
+    float: left;
+    padding: 150px 20px;
+    display: table-cell;
+    height: 100%;
+    vertical-align: center;
+    color: white;
+    font-size: 20px;
+}
+main {
+    box-sizing: border-box; 
+    margin: 0 auto;
+    width: 60%;
+    background-color: #f3f3f3;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}

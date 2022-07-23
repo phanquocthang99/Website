@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Contact.css" type="text/css">
+</head>
+<body>
+    <header>
+        <div class="header_content">
+            <ul class="navigation">
+                <a href="Homepage.html"><li>Home</li></a>
+                <a href="Category.html"><li>Best Seller</li></a>
+                <a href="Category.html"><li>Recently Released</li></a>
+            </ul>
+        </div>
+        <div class="headerpicture">
+        </div>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        <form style="margin: auto;" action="Contact.html">
+            <div class="prompt-text">
+                <label for="purpose">Purpose of contact</label>
+            </div>
+            <div class="form-field">
+            <select id="purpose" name="purpose">
+                <option value="sell">I want to sell books</option>
+                <option value="buy">I want to buy books</option>
+            </select>
+            </div>
+            <div class="form">
+                <div class="prompt-text">
+                <label for="name">Your name</label>
+                </div>
+                <div class="form-field">
+                <input required id="name" type="text" name="name" maxlength="25">
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="prompt-text">
+                <label for="email">Your email</label>
+                </div>
+                <div class="form-field">
+                <input required id="email" type="email" name="email">
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="prompt-text">
+                <label for="phone">Your phone</label>
+                </div>
+                <div class="form-field">
+                <input required id="phone" type="tel" name="phone" pattern="[0-9]{9,13}" title="Enter 9 to 13 digits">
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="prompt-text">
+                <label>How can we contact you:</label>
+                </div>
+                <div class="form-field">
+                <ul>
+                    <li>
+                    <input type="radio" id="email" name="contact" value="email">
+                    <label for="contact_email">Email</label>
+                    </li>
+                    <li>
+                    <input type="radio" id="phone" name="contact" value="phone">
+                    <label for="contact_phone">Phone</label>
+                    </li>
+                </ul>
+                </div>
+            </div>
+
+            <div class="form">
+                <div class="prompt-text">
+                    <label>Do you want to receive our weekly newsletter:</label>
+                </div>
+                <div class="form-field">
+                <ul>
+                    <li>
+                    <input type="radio" id="yes" name="agreement" value="receive_newsletter" checked>
+                    <label for="yes">Yes</label>
+                    </li>
+                    <li>
+                    <input type="radio" id="no" name="agreement" value="cancel_newsletter">
+                    <label for="no">No</label>
+                    </li>
+                </ul>
+
+            <div class="form">
+                <div class="prompt-text">
+                <label for="text-note">Note</label>
+                </div>
+                <div class="form-field">
+                <textarea cols="60" rows="20" required id="text-note" name="text-note"></textarea>
+                </div>
+            </div>
+            <div class="form">
+                <input type="submit">
+                <input type="reset">
+            </div>           
+        </form>    
+    </main>
+
+    <footer>
+        <div class="footer_content">
+            <ul class="navigation">
+                <a href="#"><li>About Us</li></a>
+                <a href="#"><li>Privacy Policy</li></a>
+                <a href="#"><li>Terms</li></a>
+                <a href="#"><li>Copyright</li></a>
+                <a href="#"><li>Contact Us</li></a>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
